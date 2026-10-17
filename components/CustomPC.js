@@ -15,7 +15,7 @@ export default function CustomPC() {
             <h2 className="h-display mt-5">Your PC,<br /><span className="text-lime">Your Way.</span></h2>
           </div>
           <div className="relative mt-8">
-            <div className="overflow-hidden rounded-2xl ring-1 ring-white/10"><Photo src="/images/prod-4.jpg" alt="Custom PC build workstation" sizes="(min-width:1024px) 50vw, 100vw" className="h-[240px] w-full" /></div>
+            <div className="overflow-hidden rounded-2xl ring-1 ring-white/10"><Photo src="/images/Builder-HeroBanner.png" alt="Custom PC build workstation" sizes="(min-width:1024px) 50vw, 100vw" className="h-[240px] w-full" /></div>
             <ul className="mt-4 space-y-2 text-sm text-white/90">
               {PC_POINTS.map((t) => <li key={t} className="flex items-center gap-2.5"><Icon name="checkc" className="h-[18px] w-[18px] shrink-0 text-lime" />{t}</li>)}
             </ul>
@@ -57,7 +57,7 @@ export default function CustomPC() {
               </div>
             </div>
             <div className="relative">
-              <div className="overflow-hidden rounded-2xl ring-1 ring-white/10"><Photo src="/images/prod-4.jpg" alt="Custom PC build workstation" sizes="(min-width:1024px) 50vw, 100vw" className="h-[240px] w-full sm:h-[340px] lg:h-[430px]" /></div>
+              <div className="overflow-hidden rounded-2xl ring-1 ring-white/10"><Photo src="/images/Builder-HeroBanner.png" alt="Custom PC build workstation" sizes="(min-width:1024px) 50vw, 100vw" className="h-[240px] w-full sm:h-[340px] lg:h-[430px]" /></div>
               <ul className="mt-4 space-y-2 text-sm text-white/90 lg:absolute lg:bottom-5 lg:right-5 lg:mt-0 lg:rounded-xl lg:bg-ink/70 lg:p-4 lg:backdrop-blur">
                 {PC_POINTS.map((t) => <li key={t} className="flex items-center gap-2.5"><Icon name="checkc" className="h-[18px] w-[18px] shrink-0 text-lime" />{t}</li>)}
               </ul>
