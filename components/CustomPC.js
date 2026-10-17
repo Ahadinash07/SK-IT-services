@@ -68,7 +68,7 @@ export default function CustomPC() {
         <div className="mt-14">
           <p className="eyebrow !text-lime">How It Works</p>
           <h3 className="mt-3 text-2xl font-extrabold sm:text-3xl">A Simple Process.</h3>
-          <ol className="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+          <ol className="mt-6 grid gap-3 overflow-hidden sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
             {PC_STEPS.map(([ic, t, d], i) => (
               <li key={t} className="relative lg:pr-5">
                 <div className="dark-card h-full p-5">

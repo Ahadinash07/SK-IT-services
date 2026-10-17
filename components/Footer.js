@@ -35,7 +35,7 @@ export default function Footer() {
             </div>
           ))}
           {/* Contact details are always visible, on every screen size */}
-          <div className="border-t border-lime/40 pt-5 lg:border-l lg:border-t-0 lg:border-white/10 lg:pl-8 lg:pt-0">
+          <div className="min-w-0 border-t border-lime/40 pt-5 lg:border-l lg:border-t-0 lg:border-white/10 lg:pl-8 lg:pt-0">
             <h4 className="mb-4 font-extrabold text-lime">Contact Details</h4>
             <ContactDetails />
           </div>

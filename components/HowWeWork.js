@@ -32,7 +32,7 @@ export default function HowWeWork() {
             </div>
           </div>
         </div>
-        <ol className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
+        <ol className="mt-10 grid gap-4 overflow-hidden sm:grid-cols-2 lg:grid-cols-4 lg:gap-0">
           {PROCESS.map((p, i) => (
             <li key={p.title} className="relative lg:px-2.5 first:lg:pl-0 last:lg:pr-0">
               <article className="card h-full overflow-hidden">

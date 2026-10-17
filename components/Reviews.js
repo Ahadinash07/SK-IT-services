@@ -33,7 +33,7 @@ export default function Reviews() {
           ))}
         </ul>
 
-        <div className="relative mt-8">
+        <div className="relative mt-8 overflow-hidden">
           <button onClick={() => go(-1)} aria-label="Previous review" className="absolute -left-2 top-1/2 z-10 hidden h-9 w-9 -translate-y-1/2 place-items-center rounded-full bg-ink text-lime ring-2 ring-lime sm:grid lg:-left-4"><Icon name="left" className="h-4 w-4" /></button>
           <div ref={ref} onScroll={onScroll} className="flex snap-x snap-mandatory gap-4 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
             {REVIEWS.map((r) => (

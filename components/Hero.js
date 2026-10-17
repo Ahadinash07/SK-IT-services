@@ -48,7 +48,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className="relative z-10 pb-6">
+        <div className="relative pt-2 z-10 pb-6">
           <ul className="grid gap-4 sm:grid-cols-3 sm:gap-0">
             {HERO_FEATURES.map((f, i) => (
               <li key={f.title} className={`flex items-center gap-3.5 sm:px-6 ${i > 0 ? "sm:border-l sm:border-white/10" : "sm:pl-0"}`}>

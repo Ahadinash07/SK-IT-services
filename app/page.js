@@ -16,7 +16,7 @@ export default function Page() {
   return (
     <QuoteProvider>
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Hero /><Services /><Products /><CustomPC /><Why /><HowWeWork /><Reviews /><FAQ /><Contact />
       </main>
       <Footer />

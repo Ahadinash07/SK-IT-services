@@ -158,9 +158,9 @@ export default function Contact() {
 
         <div className="dark-sec mt-6 flex flex-col gap-6 rounded-2xl bg-ink p-6 text-white sm:p-7 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-[440px]"><p className="text-[11px] font-bold uppercase tracking-[.14em] text-lime">Still have questions?</p><h3 className="mt-1 text-2xl font-extrabold text-lime sm:text-3xl">We&apos;re Here to Help.</h3><p className="mt-2 text-sm text-white/70">Not sure what you need? Our friendly team is ready to advise you on the right solution based on your usage, budget and requirements.</p></div>
-          <ul className="grid grid-cols-2 gap-4 sm:grid-cols-4">
+          <ul className="grid grid-cols-2 gap-4 overflow-hidden sm:grid-cols-4">
             {[["chat", "Product Enquiry"], ["wrench", "Repair Support"], ["briefcase", "Business IT Consultation"], ["users", "General Questions"]].map(([ic, t]) => (
-              <li key={t}><A href={waLink(`Hello SK IT Services! ${t}: `)} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 text-center text-xs font-semibold text-white/85 hover:text-lime"><span className="grid h-12 w-12 place-items-center rounded-full border border-white/15 text-lime"><Icon name={ic} className="h-5 w-5" /></span>{t}</A></li>
+              <li key={t}><A href={waLink(`Hello SK IT Services! ${t}: `)} target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-2 text-center text-xs font-semibold text-white/85 hover:text-lime"><span className="grid h-12 w-12 place-items-center rounded-full border border-white/15 text-lime"><Icon name={ic} className="h-5 w-5" /></span><span className="break-words">{t}</span></A></li>
             ))}
           </ul>
         </div>
